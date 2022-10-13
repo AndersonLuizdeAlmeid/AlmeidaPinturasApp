@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaInicialActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="almeidapinturas"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="inicio"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_funcionarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_funcionario"
+            android:text="Funcionarios" />
+
+        <Button
+            android:id="@+id/btn_clientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_cliente"
+            android:text="Clientes" />
+
+        <Button
+            android:id="@+id/btn_agenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_agenda"
+            android:text="agenda" />
+
+    </LinearLayout>
+</RelativeLayout>
