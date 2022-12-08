@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FuncionarioActivity">
+    tools:context=".ClientesActivity">
 
 
     <LinearLayout
@@ -95,6 +95,21 @@
             android:text="Douglas Pedruzzi .. Fenachamp -> Garibaldi"
             android:textSize="14sp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_cadastro_cliente"
+            android:text="Cadastrar novo cliente" />
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_inicial"
+            android:text="Voltar" />
+
 
     </LinearLayout>
 </RelativeLayout>

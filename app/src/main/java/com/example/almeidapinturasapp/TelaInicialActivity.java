@@ -19,18 +19,18 @@ public class TelaInicialActivity extends AppCompatActivity {
         cxMsg.show();
     }
 
-    public void abrir_tela_funcionario(View v){
-        Intent it_telaInicial = new Intent(this, FuncionarioActivity.class);
-        startActivity(it_telaInicial);
+    public void abrir_tela_consulta_funcionario(View v){
+        Intent it_telaCadastroFuncionario = new Intent(this, ConsultarFuncionarioActivity.class);
+        startActivity(it_telaCadastroFuncionario);
     }
 
-    public void abrir_tela_cliente(View v){
-        Intent it_telaInicial = new Intent(this, ClientesActivity.class);
-        startActivity(it_telaInicial);
+    public void abrir_tela_consulta_cliente(View v){
+        Intent it_telaCadastroCliente = new Intent(this, ConsultarClienteActivity.class);
+        startActivity(it_telaCadastroCliente);
     }
 
     public void abrir_tela_agenda(View v){
-        Intent it_telaInicial = new Intent(this, AgendaActivity.class);
-        startActivity(it_telaInicial);
+        Intent it_telaAgenda = new Intent(this, AgendaActivity.class);
+        startActivity(it_telaAgenda);
     }
 }

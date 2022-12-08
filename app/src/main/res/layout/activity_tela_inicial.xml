@@ -36,14 +36,14 @@
             android:id="@+id/btn_funcionarios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="abrir_tela_funcionario"
+            android:onClick="abrir_tela_consulta_funcionario"
             android:text="Funcionarios" />
 
         <Button
             android:id="@+id/btn_clientes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="abrir_tela_cliente"
+            android:onClick="abrir_tela_consulta_cliente"
             android:text="Clientes" />
 
         <Button

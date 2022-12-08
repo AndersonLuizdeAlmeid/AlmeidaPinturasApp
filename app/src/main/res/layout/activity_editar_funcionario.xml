@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <TextView
+      android:id="@+id/textViewCodigo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Código:"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp" />
+
+  <EditText
+      android:id="@+id/editTextCodigo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:editable="false"
+      android:textSize="10dp" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="Nome do Funcionario:"
+      android:textSize="14sp"
+      android:id="@+id/textViewNomeFuncionario" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextNomeFuncionario" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="Rua:"
+      android:id="@+id/textViewRua" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextRua" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="Numero:"
+      android:id="@+id/textViewNumero" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextNumero" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="Bairro:"
+      android:id="@+id/textViewBairro" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextBairro" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="Cidade:"
+      android:id="@+id/textViewCidade" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextCidade" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="Pais:"
+      android:id="@+id/textViewPais" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextPais" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="CPF:"
+      android:id="@+id/textViewCPF" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextCPF" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp"
+      android:text="Fone:"
+      android:id="@+id/textViewFone" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextFone" />
+
+  <TextView
+      android:id="@+id/textViewSalario"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Salario:"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textSize="14sp" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:textSize="10dp"
+      android:id="@+id/editTextSalario" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:id="@+id/buttonVoltar"
+        android:layout_alignTop="@+id/buttonAlterar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginStart="95dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar"
+        android:id="@+id/buttonAlterar"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/buttonVoltar"
+        android:layout_toEndOf="@+id/buttonVoltar" />
+
+  </RelativeLayout>
+
+
+</LinearLayout>

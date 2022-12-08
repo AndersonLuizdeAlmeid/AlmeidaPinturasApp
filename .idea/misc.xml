@@ -3,9 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3675" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_agenda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_cadastro_cliente.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_cadastro_funcionario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_cliente_model.xml" value="0.16296296296296298" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_clientes.xml" value="0.35260416666666666" />
-        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_esqueci_senha.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_consultar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_consultar_cliente_adapter.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_consultar_funcionario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_consultar_funcionario2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_consultar_funcionario_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_editar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_editar_funcionario.xml" value="0.33" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_esqueci_senha.xml" value="0.33" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_funcionario.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/AlmeidaPinturasApp/app/src/main/res/layout/activity_tela_inicial.xml" value="0.36666666666666664" />

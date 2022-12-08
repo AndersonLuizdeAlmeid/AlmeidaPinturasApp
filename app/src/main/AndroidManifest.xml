@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.almeidapinturasapp" >
+    package="com.example.almeidapinturasapp">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlmeidaPinturasApp"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".Utils"
+            android:exported="false" />
+        <activity
+            android:name=".EditarFuncionarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditarClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarFuncionarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarClienteAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ClienteRepository"
+            android:exported="false" />
+        <activity
+            android:name=".DatabaseUtil"
+            android:exported="false" />
+        <activity
+            android:name=".ClienteModel"
+            android:exported="false" />
+        <activity
+            android:name=".FuncionarioModel"
+            android:exported="false" />
+        <activity
+            android:name=".FuncionarioRepository"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroFuncionarioActivity"
+            android:exported="false" />
         <activity
             android:name=".EsqueciSenhaActivity"
             android:exported="false" />
@@ -30,7 +69,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

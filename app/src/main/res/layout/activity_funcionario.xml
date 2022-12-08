@@ -96,5 +96,19 @@
             android:textSize="14sp"
             android:textStyle="bold" />
 
+        <Button
+            android:id="@+id/cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_cadastro_funcionario"
+            android:text="Cadastrar novo funcionario" />
+
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_inicial"
+            android:text="Voltar" />
+
     </LinearLayout>
 </RelativeLayout>
