@@ -198,7 +198,7 @@ public class CadastroClienteActivity extends AppCompatActivity {
         validarFormulario();
         SalvarCadastroBanco();
         if (ValidarDados == true){
-            Intent it_telaConsultarCliente = new Intent(this, ConsultarFuncionarioActivity.class);
+            Intent it_telaConsultarCliente = new Intent(this, ConsultarClienteActivity.class);
             startActivity(it_telaConsultarCliente);
         } else {
             AlertDialog.Builder cxMsg = new AlertDialog.Builder(this);

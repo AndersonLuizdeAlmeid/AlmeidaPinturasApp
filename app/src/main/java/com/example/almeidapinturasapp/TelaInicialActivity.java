@@ -30,7 +30,7 @@ public class TelaInicialActivity extends AppCompatActivity {
     }
 
     public void abrir_tela_agenda(View v){
-        Intent it_telaAgenda = new Intent(this, AgendaActivity.class);
+        Intent it_telaAgenda = new Intent(this, ConsultarAgendaActivity.class);
         startActivity(it_telaAgenda);
     }
 }

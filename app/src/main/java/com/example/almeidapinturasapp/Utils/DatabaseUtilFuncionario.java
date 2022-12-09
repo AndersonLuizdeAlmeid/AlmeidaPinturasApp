@@ -50,6 +50,13 @@ public class DatabaseUtilFuncionario extends SQLiteOpenHelper {
                 "        ds_fone             TEXT    )             ";
 
         db.execSQL(stringBuilderCreateTable);
+
+        stringBuilderCreateTable = " CREATE TABLE tb_appAlmeidaAgenda (" +
+                "        id_agenda      INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "        ds_data             TEXT    ,             " +
+                "        ds_hora             TEXT    )             ";
+
+        db.execSQL(stringBuilderCreateTable);
     }
 
     /*SE TROCAR A VERSÃO DO BANCO DE DADOS VOCÊ PODE EXECUTAR ALGUMA ROTINA
@@ -58,6 +65,8 @@ public class DatabaseUtilFuncionario extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
         db.execSQL("DROP TABLE IF EXISTS tb_appAlmeida");
+        db.execSQL("DROP TABLE IF EXISTS tb_appAlmeidaCliente");
+        db.execSQL("DROP TABLE IF EXISTS tb_appAlmeidaAgenda");
         onCreate(db);
 
     }
